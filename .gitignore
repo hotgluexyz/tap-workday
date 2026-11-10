@@ -1,0 +1,9 @@
+.venv/
+.secrets/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.ruff_cache/
+*.parquet
+job_metrics.json
+hg-tap-exception-*.json
