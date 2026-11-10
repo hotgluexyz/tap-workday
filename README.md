@@ -57,7 +57,7 @@ selected operation. Activate pending security policy changes in Workday after
 granting access. A SOAP “task submitted is not authorized” fault fails the sync
 with the operation name rather than silently treating the stream as empty.
 HTTP 429/502/503/504 and connection errors have bounded retries; rate-limit retries
-honor Retry-After and otherwise use exponential backoff with jitter. SOAP faults
+honor Retry-After and otherwise use exponential backoff. SOAP faults
 are not retried. Request bodies and credentials are never logged by the tap.
 
 ## Install and run
